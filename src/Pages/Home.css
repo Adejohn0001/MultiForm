@@ -1,0 +1,25 @@
+body{
+    background-image: url('../assets/images/bg-sidebar-mobile.svg');
+    background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgb(238, 245, 255);
+ 
+}
+
+@media (min-width: 576px) {
+    body{
+        background-image: none;
+        padding: 20px 0px 20px 20px;
+        margin: 1rem 1rem;
+        background-color:  rgb(238, 245, 255);
+
+    }
+}
+@media (min-width: 769px) {
+    body {
+        background-image: none;
+        height: 90vh;
+        background-size:auto;
+        padding: 1rem 1rem;
+    }
+}
