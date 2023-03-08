@@ -20,8 +20,9 @@ button{
 @media (min-width: 576px){
   background-color:transparent;
 margin-top: -3rem;
-padding: 1.3rem 1.3rem 1.3rem;
+padding: 2rem 1.3rem 0rem;
 display:flex;
+margin-right:3.5rem;
 justify-content: flex-end;
 align-items: flex-end;  
 }

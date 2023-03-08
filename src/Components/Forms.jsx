@@ -5,6 +5,7 @@ const FormStyled = styled.div`
 .label {
     width: 100%;
     font-size: 13px;
+    font-weight: 700;
 }
 input {
     width:100%;
@@ -14,6 +15,14 @@ input {
 }
 div{
     margin: 1rem 0rem;
+}
+
+@media (min-width: 769px){
+margin-left:-0.9rem;
+
+div{
+    margin: 0.5rem 0rem;
+}
 }
 `
 const Forms = () => {

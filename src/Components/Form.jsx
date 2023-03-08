@@ -18,7 +18,7 @@ border-radius: 10px;
 
 @media (min-width: 769px ){
   width: 600px;
-  margin: 1.35rem 1rem 0rem;
+  margin: 2.35rem 1rem 0rem;
   padding: 0rem 1rem;
 }
 `

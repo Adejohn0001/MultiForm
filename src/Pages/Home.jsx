@@ -16,8 +16,9 @@ const HomeStyled = styled.div`
     justify-content: center;
     margin-top:-4rem;
     background-color: white;
-    margin: -0.5rem 0rem;
+    margin: -0.9rem 0rem;
     border-radius: 10px;
+    padding: 1rem 0rem;
   }
   .formhome {
     width:100%;
