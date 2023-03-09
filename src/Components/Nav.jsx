@@ -9,7 +9,7 @@ const NavStyled = styled.div`
   display:flex;
   justify-content:center;
   list-style-type: none;
-  margin-bottom: 2.9rem;
+  margin-bottom: 3.2rem;
 }
 .nav-links-tech{
   color:white;
@@ -21,7 +21,7 @@ const NavStyled = styled.div`
   text-decoration:none;
 }
 .tech01 li {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 .active {
   background-color: #bee2fc;

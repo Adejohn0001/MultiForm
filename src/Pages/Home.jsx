@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Form from '../Components/Form'
 import Button from "../Components/Button"
-import '../Pages/Home.css'
+import '../Pages/Styles/Home.css'
 import Navbg from '../Components/Navbg'
 import Nav from '../Components/Nav'
 

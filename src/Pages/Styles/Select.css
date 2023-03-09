@@ -1,0 +1,6 @@
+body{
+    background-image: url('../../assets/images/bg-sidebar-mobile.svg');
+    background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgb(238, 245, 255);
+}
