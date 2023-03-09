@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const FormStyled = styled.div`
 background-color: white;
-margin: 5.35rem 1rem 0rem;
+margin: -0.2rem 1rem 0rem;
 padding: 1rem 1rem;
 border-radius: 10px;
 .personal {

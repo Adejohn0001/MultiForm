@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const ButtonStyled = styled.div`
 background-color:white;
-margin-top: 7.7rem;
+margin-top: 5.9rem;
 padding: 1.3rem 1.3rem 1.3rem;
 display:flex;
 justify-content: flex-end;

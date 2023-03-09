@@ -4,6 +4,7 @@ import Form from '../Components/Form'
 import Button from "../Components/Button"
 import '../Pages/Home.css'
 import Navbg from '../Components/Navbg'
+import Nav from '../Components/Nav'
 
 const HomeStyled = styled.div`
 .navbackg{
@@ -27,13 +28,16 @@ const HomeStyled = styled.div`
   .navbackg{
     display:block;
   }
+  .nav-desk {
+    display:none;
+  }
 }
 `
 const Home = () => {
   return (
     <HomeStyled>
-      <div>
-        {/*<Nav />*/}
+      <div className='nav-desk'>
+        <Nav />
       </div>
 
       <div className='container2'>

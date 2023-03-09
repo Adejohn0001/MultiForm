@@ -5,91 +5,79 @@ import {
 import styled from 'styled-components';
 
 const NavStyled = styled.div`
-display: none;
-.nav-link{
-    text-decoration: none;
-    display: flex;
+.tech01{
+  display:flex;
+  justify-content:center;
+  list-style-type: none;
+  margin-bottom: 2.9rem;
 }
-li{
-    list-style-type: none;
-}
-.links {
-    display:flex;
-    color:white;
-}
-.link2 {
-}
-.number {
+.nav-links-tech{
+  color:white;
+  font-size:20px;
   border: 1px solid white;
+  padding: 0.5rem 1rem;
   border-radius: 100%;
+  margin: 4rem 0.8rem;
+  text-decoration:none;
+}
+.tech01 li {
+  margin-top: 3rem;
+}
+.active {
+  background-color: #bee2fc;
+  color:#04264b;
+  border:none;
 }
 
 @media (min-width: 576px) {
-    display:block;
 }
+
+@media (min-width: 769px) {
+  .tech01{
+      display:flex;
+      flex-direction: column;
+  }
+};
 `
 const Nav = () => {
   return (
     <NavStyled>
-        <ul>
+        <ul className='tech01'>
             <li className='one'>
               <NavLink 
               exact
               to="/"
-              activeClassName="active"
-              className="nav-link"
+              activeClassName="activetech"
+              className="nav-links-tech"
               >
-                <p>1</p>
-                <span>Step 1</span> <br />
-                <span>Your Info</span>
+                1
               </NavLink>
             </li>
 
             <li className='text-white'>
-              <NavLink to="/"
-              activeClassName="active"
-              className="nav-link"
+              <NavLink to="/selectplan"
+              activeClassName="activetech"
+              className="nav-links-tech"
               >
-                <div className='links'>
-                    <div>2</div>
-
-                    <div className='link2'>
-                        <div> Step 2</div>
-                        <div>Select Plans</div>
-                    </div>
-                </div>
+                2
               </NavLink>
             </li>
 
             <li className='text-white'>
-              <NavLink to="/"
-              activeClassName="active"
-              className="nav-link"
+              <NavLink to="/add-ons"
+              activeClassName="activetech"
+              className="nav-links-tech"
               >
-                <div className='links'>
-                    <div>3</div>
-
-                    <div className='link2'>
-                        <div> Step 3</div>
-                        <div>Add-Ons</div>
-                    </div>
-                </div>
+                3
               </NavLink>
             </li>
 
             <li className='text-white'>
-              <NavLink to='/'
-              activeClassName="active"
-              className="nav-link"
+              <NavLink to='/summary'
+              activeClassName="activetech"
+              className="nav-links-tech"
               >
-                <div className='links'>
-                    <div>4</div>
-
-                    <div className='link2'>
-                        <div> Step 4</div>
-                        <div>Summary</div>
-                    </div>
-                </div>
+                4
               </NavLink>
             </li>
 
